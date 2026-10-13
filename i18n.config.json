@@ -1,0 +1,7 @@
+{
+  "fallback": "pt-BR",
+  "languages": ["pt-BR", "en"],
+  "detection": { "order": ["navigator"], "pt": "pt-BR", "en": "en" },
+  "defaultNamespace": "translation",
+  "keySeparator": false
+}

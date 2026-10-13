@@ -1,0 +1,15 @@
+{
+  "nav.stack": "STACK", "nav.projects": "PROJECTS", "nav.experience": "EXPERIENCE", "nav.contact": "CONTACT",
+  "nav.language": "Language", "nav.home": "Back to top", "nav.sections": "Main navigation", "nav.email": "Email",
+  "hero.availability": "MANAUS, AM — BRAZIL", "hero.eyebrow": "DEV SECURITY",
+  "hero.openToWork": "Available for new projects", "hero.country": "Brazil", "hero.terminalLabel": "IDENTITY / TERMINAL", "hero.crtAlt": "CRT monitor with the terminal output matheus@portfolio:~$ whoami", "hero.portraitAlt": "Matheus Coutinho at his graduation, wearing a blue and black gown", "hero.portraitMoveLeft": "Move image left", "hero.portraitReset": "Reset image position",
+  "hero.scroll": "SCROLL TO SEE THE PROJECTS",
+  "about.kicker": "ABOUT", "about.title": "ABOUT ME", "about.bio": "I'm a full stack developer in Manaus, Amazonas, driven by problems that don't have ready-made solutions. I work from Python/Django back ends to React interfaces, across data, infrastructure, and applied AI.\n\nI've built computer vision for workplace safety, a management SaaS, and an AI-powered tour guide. I value readable code, lean delivery, and products that work in the real world.",
+  "about.note": "FULL STACK / PRODUCT / ARTIFICIAL INTELLIGENCE", "about.quickContact": "QUICK CONTACT", "about.cameraLabel": "IN FOCUS / 01", "about.cameraAlt": "Digital camera showing project 01 Manaus Tour AI", "about.cameraCaption": "FEATURED PROJECT",
+  "stack.languages": "LANGUAGES", "stack.frameworks": "FRAMEWORKS", "stack.infrastructure": "DATA / INFRASTRUCTURE", "stack.ai": "ARTIFICIAL INTELLIGENCE",
+  "footer.stack": "STACK", "footer.stackTitle": "TOOLKIT", "footer.projects": "PROJECTS", "footer.experience": "EXPERIENCE", "footer.location": "MANAUS, AM", "footer.copyright": "MATHEUS COUTINHO", "footer.backToTop": "BACK TO TOP",
+  "projects.title": "SELECTED WORK", "projects.manausTour": "Project description to be added.", "projects.guardiao": "Project description to be added.", "projects.toVerde": "Project description to be added.", "projects.portal": "Project description to be added.",
+  "experience.title": "BACKGROUND", "experience.workType": "EXPERIENCE", "experience.internship": "Internship — Diretório Digital", "experience.internshipDetail": "Role details to be added.", "experience.educationType": "EDUCATION", "experience.degree": "Systems Analysis and Development", "experience.school": "Fametro", "experience.coursesPending": "- Python Programming — Senac\n- Frontend Web with ReactJS — Samsung Ocean\n- Python — Graphical Interfaces — Samsung Ocean\n- Implementing AI Models with Orange and Python — Samsung Ocean\n- AI Fundamentals (machine learning) — Alura\n- AI Fundamentals (intelligent systems) — Alura\n- Git and GitHub — Alura\n- Leveling Course — One AI for Tech — Alura",
+  "contact.kicker": "NEXT CHAPTER", "contact.title": "LET'S BUILD SOMETHING TOGETHER.", "contact.technologies": "Technologies used", "contact.button": "SEND AN EMAIL", "accessibility.languageChanged": "Language updated",
+  "notFound.title": "Page not found", "notFound.description": "The requested address does not exist.", "notFound.home": "Back to top"
+}
