@@ -26,10 +26,10 @@ function TechStackColumns() {
         <div className="section-marker mono-label"><span>// 02</span><span>{t('footer.stack')}</span></div>
         <h2 id="stack-title" className="footer-column__title">{t('footer.stackTitle')}</h2>
         <div className="stack-groups">
-          <div><h3 className="mono-label">{t('stack.languages')}</h3><p>{portfolioContent.stack.languages.join(' · ')}</p></div>
-          <div><h3 className="mono-label">{t('stack.frameworks')}</h3><p>{portfolioContent.stack.frameworks.join(' · ')}</p></div>
-          <div><h3 className="mono-label">{t('stack.infrastructure')}</h3><p>{portfolioContent.stack.infrastructure.join(' · ')}</p></div>
-          <div><h3 className="mono-label">{t('stack.ai')}</h3><p>{portfolioContent.stack.ai.join(' · ')}</p></div>
+          <div><h3 className="mono-label">{t('stack.languages')}</h3><div className="stack-chips">{portfolioContent.stack.languages.map((item) => <span key={item}>{item}</span>)}</div></div>
+          <div><h3 className="mono-label">{t('stack.frameworks')}</h3><div className="stack-chips">{portfolioContent.stack.frameworks.map((item) => <span key={item}>{item}</span>)}</div></div>
+          <div><h3 className="mono-label">{t('stack.infrastructure')}</h3><div className="stack-chips">{portfolioContent.stack.infrastructure.map((item) => <span key={item}>{item}</span>)}</div></div>
+          <div><h3 className="mono-label">{t('stack.ai')}</h3><div className="stack-chips">{portfolioContent.stack.ai.map((item) => <span key={item}>{item}</span>)}</div></div>
         </div>
       </section>
       <section className="footer-column" id="experiencia" aria-labelledby="experience-title">
