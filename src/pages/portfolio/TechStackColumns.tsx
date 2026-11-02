@@ -22,7 +22,7 @@ function TechStackColumns() {
           </li>)}
         </ol>
       </section>
-      <section className="footer-column" id="stack" aria-labelledby="stack-title">
+      <section className="footer-column footer-column--stack" id="stack" aria-labelledby="stack-title">
         <div className="section-marker mono-label"><span>// 02</span><span>{t('footer.stack')}</span></div>
         <h2 id="stack-title" className="footer-column__title">{t('footer.stackTitle')}</h2>
         <div className="stack-groups">
