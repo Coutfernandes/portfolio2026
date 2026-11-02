@@ -14,10 +14,9 @@ export const portfolioContent = {
     ai: ['YOLOv8', 'RAG', 'Gemini', 'LangChain'],
   },
   projects: [
-    { number: '01', name: 'Manaus Tour AI', href: 'https://github.com/Coutfernandes/manaus-tour-ai', descriptionKey: 'projects.manausTour' },
-    { number: '02', name: 'Guardião EPI', href: 'https://github.com/Coutfernandes/guardiao-epi', descriptionKey: 'projects.guardiao' },
-    { number: '03', name: 'ToVerde', href: 'https://github.com/Coutfernandes/ToVerde', descriptionKey: 'projects.toVerde' },
-    { number: '04', name: 'Portal de Solicitações', href: 'https://github.com/Coutfernandes/portal-solicitacoes', descriptionKey: 'projects.portal' },
+    { number: '01', name: 'Manaus Tour AI', href: 'https://manaus-tour-ai.vercel.app/', github: 'https://github.com/Coutfernandes/manaus-tour-ai', image: '/projects/manaus-tour-ai.png', descriptionKey: 'projects.manausTour' },
+    { number: '02', name: 'Portal de Solicitações', href: 'https://portal-solicitacoes-smoky.vercel.app/', github: 'https://github.com/Coutfernandes/portal-solicitacoes', image: '/projects/portal-solicitacoes.png', descriptionKey: 'projects.portal' },
+    { number: '03', name: 'Casa das Letras', href: 'https://casa-das-letras.vercel.app/', github: 'https://github.com/Coutfernandes/casa-das-letras', image: '/projects/casa-das-letra.png', descriptionKey: 'projects.casaDasLetras' },
   ],
   technologyChips: ['Python', 'Django', 'React', 'Docker', 'YOLOv8', 'Gemini'],
 } as const

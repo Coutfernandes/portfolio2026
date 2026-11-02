@@ -7,8 +7,23 @@ function TechStackColumns() {
 
   return (
     <div className="footer-columns">
+
+      <section className="footer-column" id="projetos" aria-labelledby="projects-title">
+        <div className="section-marker mono-label"><span>// 01</span><span>{t('footer.projects')}</span></div>
+        <h2 id="projects-title" className="footer-column__title">{t('projects.title')}</h2>
+        <ol className="project-list">
+          {portfolioContent.projects.map((project) => <li key={project.number}>
+            <a href={project.href} target="_blank" rel="noreferrer">
+              <span className="project-list__image" aria-hidden="true"><img src={project.image} alt="" loading="lazy" onError={(event) => { event.currentTarget.style.display = 'none' }} /><span>{project.number}</span></span>
+              <span className="project-list__number mono-label">{project.number}</span>
+              <span className="project-list__text"><strong>{project.name}</strong><small>{t(project.descriptionKey)}</small></span>
+              <ArrowUpRight size={17} />
+            </a>
+          </li>)}
+        </ol>
+      </section>
       <section className="footer-column" id="stack" aria-labelledby="stack-title">
-        <div className="section-marker mono-label"><span>// 01</span><span>{t('footer.stack')}</span></div>
+        <div className="section-marker mono-label"><span>// 02</span><span>{t('footer.stack')}</span></div>
         <h2 id="stack-title" className="footer-column__title">{t('footer.stackTitle')}</h2>
         <div className="stack-groups">
           <div><h3 className="mono-label">{t('stack.languages')}</h3><p>{portfolioContent.stack.languages.join(' · ')}</p></div>
@@ -16,13 +31,6 @@ function TechStackColumns() {
           <div><h3 className="mono-label">{t('stack.infrastructure')}</h3><p>{portfolioContent.stack.infrastructure.join(' · ')}</p></div>
           <div><h3 className="mono-label">{t('stack.ai')}</h3><p>{portfolioContent.stack.ai.join(' · ')}</p></div>
         </div>
-      </section>
-      <section className="footer-column" id="projetos" aria-labelledby="projects-title">
-        <div className="section-marker mono-label"><span>// 02</span><span>{t('footer.projects')}</span></div>
-        <h2 id="projects-title" className="footer-column__title">{t('projects.title')}</h2>
-        <ol className="project-list">
-          {portfolioContent.projects.map((project) => <li key={project.number}><a href={project.href} target="_blank" rel="noreferrer"><span className="project-list__number mono-label">{project.number}</span><span className="project-list__text"><strong>{project.name}</strong><small>{t(project.descriptionKey)}</small></span><ArrowUpRight size={17} /></a></li>)}
-        </ol>
       </section>
       <section className="footer-column" id="experiencia" aria-labelledby="experience-title">
         <div className="section-marker mono-label"><span>// 03</span><span>{t('footer.experience')}</span></div>
