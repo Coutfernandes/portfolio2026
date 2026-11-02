@@ -123,7 +123,7 @@ h1, h2, h3, p, figure { margin: 0; }
 .footer-column--stack { width: calc(100% + 16vw); margin-left: -8vw; padding-right: 8vw; padding-left: 8vw; box-sizing: border-box; color: var(--ink); background: #eeece4; }
 .footer-column--stack .section-marker, .footer-column--stack .section-marker span:first-child { color: var(--ink-soft); }
 .footer-column--stack .stack-groups h3 { color: #5f6058; }
-.footer-column--stack .stack-chips span { border-color: var(--ink); color: #eeece4; background: var(--ink); }
+.footer-column--stack .stack-chips span { border-color: var(--ink); color: var(--ink); background: transparent; }
 .footer-column .section-marker { color: #aaa89f; }
 .footer-column .section-marker span:first-child { color: #74756e; }
 .footer-column__title { margin: 20px 0 26px; font-family: var(--font-display); font-size: 31px; line-height: 1; font-weight: 400; text-transform: uppercase; }
