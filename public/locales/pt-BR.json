@@ -1,7 +1,7 @@
 {
   "nav.stack": "STACK", "nav.projects": "PROJETOS", "nav.experience": "EXPERIÊNCIA", "nav.contact": "CONTATO",
   "nav.language": "Idioma", "nav.home": "Voltar ao início", "nav.sections": "Navegação principal", "nav.email": "E-mail",
-  "hero.availability": "MANAUS, AM — BRASIL", "hero.eyebrow": "DEV SECURITY",
+  "hero.availability": "MANAUS, AM — BRASIL", "hero.eyebrow": "",
   "hero.openToWork": "Disponível para novos projetos", "hero.country": "Brasil", "hero.terminalLabel": "IDENTIDADE / TERMINAL", "hero.crtAlt": "Monitor CRT com a saída de terminal matheus@portfolio:~$ whoami", "hero.portraitAlt": "Matheus Coutinho em sua formatura, usando beca azul e preta", "hero.portraitMoveLeft": "Mover imagem para a esquerda", "hero.portraitReset": "Restaurar posição da imagem",
   "hero.scroll": "SCROLL PARA VER OS PROJETOS",
   "about.kicker": "SOBRE", "about.title": "SOBRE MIM", "about.bio": "Sou desenvolvedor full stack em Manaus (AM), movido por problemas que ainda não têm solução pronta. Trabalho do back-end em Python/Django à interface em React, passando por dados, infraestrutura e IA aplicada.\n\nJá construí visão computacional para segurança do trabalho, um SaaS de gestão e um guia turístico com IA. Gosto de código legível, entrega enxuta e produto que funciona no mundo real.",

@@ -14,7 +14,7 @@ function HeroPoster() {
       <div className="hero-poster__topline mono-label"><span>{t('hero.availability')}</span></div>
       <div className="hero-poster__content">
         <div className="hero-poster__copy">
-          <p className="hero-poster__eyebrow mono-label">{t('hero.eyebrow')}</p>
+          {t('hero.eyebrow') && <p className="hero-poster__eyebrow mono-label">{t('hero.eyebrow')}</p>}
           <h1 id="hero-title">{portfolioContent.name}</h1>
           <p className="hero-poster__role">{portfolioContent.role}</p>
           <p className="hero-poster__location"><MapPin size={15} /> {portfolioContent.location} — {t('hero.country')}</p>
