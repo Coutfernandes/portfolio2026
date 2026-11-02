@@ -129,12 +129,12 @@ h1, h2, h3, p, figure { margin: 0; }
 .project-list { margin: 0; padding: 0; list-style: none; }
 .project-list li { border-top: 1px solid #44453f; }
 .project-list li:last-child { border-bottom: 1px solid #44453f; }
-.project-list a { min-height: 88px; display: grid; grid-template-columns: 96px minmax(0,1fr) 18px; align-items: center; gap: 13px; }
+.project-list a { min-height: 130px; display: grid; grid-template-columns: 180px minmax(0,1fr) 18px; align-items: center; gap: 18px; }
 .project-list a:hover strong { text-decoration: underline; text-underline-offset: 3px; }
-.project-list__image { position: relative; width: 96px; aspect-ratio: 16 / 10; overflow: hidden; border: 1px solid #55564f; background: #30312d; }
-.project-list__image img { position: relative; z-index: 1; width: 100%; height: 100%; display: block; object-fit: cover; filter: grayscale(1) contrast(1.15); transition: transform 350ms ease, filter 350ms ease; }
+.project-list__image { position: relative; width: 180px; aspect-ratio: 16 / 10; overflow: hidden; border: 1px solid #55564f; background: #30312d; }
+.project-list__image img { position: relative; z-index: 1; width: 100%; height: 100%; display: block; object-fit: cover; transition: transform 350ms ease; }
 .project-list__image > span { position: absolute; inset: 0; display: grid; place-items: center; color: #d4d2c9; font-family: var(--font-display); font-size: 28px; }
-.project-list a:hover .project-list__image img { transform: scale(1.04); filter: grayscale(.35) contrast(1.08); }
+.project-list a:hover .project-list__image img { transform: scale(1.04); }
 .project-list__number { display: none; }
 .project-list__text { min-width: 0; display: grid; gap: 5px; }
 .project-list__text strong { font-size: 11px; font-weight: 700; }
@@ -216,8 +216,8 @@ h1, h2, h3, p, figure { margin: 0; }
   .footer-column__title { margin: 16px 0 21px; font-size: 28px; }
   .stack-groups { grid-template-columns: 1fr 1fr; column-gap: 18px; row-gap: 17px; }
   .stack-groups p { font-size: 10px; }
-  .project-list a { min-height: 82px; grid-template-columns: 84px minmax(0,1fr) 18px; gap: 11px; }
-  .project-list__image { width: 84px; }
+  .project-list a { min-height: 106px; grid-template-columns: 128px minmax(0,1fr) 18px; gap: 12px; }
+  .project-list__image { width: 128px; }
   .contact-block { margin-top: 56px; padding: 27px 0; align-items: flex-start; flex-direction: column; gap: 22px; }
   .contact-block h2 { max-width: 430px; font-size: 43px; }
   .contact-block__button { min-height: 44px; }
