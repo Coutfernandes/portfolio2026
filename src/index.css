@@ -153,8 +153,7 @@ h1, h2, h3, p, figure { margin: 0; }
 .contact-block__button { min-height: 47px; padding: 0 15px; display: inline-flex; align-items: center; gap: 12px; border: 1px solid var(--paper); white-space: nowrap; font-size: 10px; font-weight: 700; }
 .footer-marquee { margin: 29px -8vw 0; overflow: hidden; border-bottom: 1px solid #44453f; }
 .footer-marquee__track { width: max-content; padding: 13px 0 16px; animation: marquee 38s linear infinite; color: #aaa89f; font-family: var(--font-display); font-size: 24px; line-height: 1; }
-.footer-bottom { min-height: 56px; display: flex; justify-content: space-between; align-items: center; gap: 12px; color: #929189; font-size: 8px; }
-.footer-bottom a:hover { color: var(--paper); }
+.footer-bottom { min-height: 56px; display: grid; place-items: center; color: #929189; font-size: 8px; text-align: center; }
 
 @keyframes marquee { to { transform: translateX(-50%); } }
 @keyframes reveal-up { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
